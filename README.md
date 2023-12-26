@@ -8,5 +8,5 @@
 
 # Preview
 
-![Preview_1](./src/assets/screenshots/Preview_1.jpg)
-![Preview_2](./src/assets/screenshots/Preview_2.jpg)
+![Preview_1](./src/assets/screenshots/Preview_1.png)
+![Preview_2](./src/assets/screenshots/Preview_2.png)
