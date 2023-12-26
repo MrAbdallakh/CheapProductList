@@ -1,0 +1,9 @@
+<ion-content [fullscreen]="true">
+<textarea id="name" rows="2" maxlength="25" placeholder="Name of Product" [(ngModel)]="name"></textarea>
+<textarea id="cost" rows="2" maxlength="20" placeholder="Cost of Product" [(ngModel)]="cost"></textarea>
+<textarea id="place" rows="4" maxlength="100" placeholder="Place of Product" [(ngModel)]="place"></textarea>
+<ion-toggle aria-label="Tertiary toggle" color="tertiary" [checked]="true" id="checkHorizontal" (ionChange)="changeImage()" [(ngModel)]="checkHorizontal">Horizontal Image</ion-toggle>
+<button id="imageViewButton" (click)="getImage()"><img id="image"></button>
+<button id="decline" (click)="decline()">Decline</button>
+<button id="add" (click)="add()">Add</button>
+</ion-content>

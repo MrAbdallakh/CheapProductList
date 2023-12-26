@@ -1,0 +1,173 @@
+textarea,
+button {
+    position: absolute;
+    resize: none;
+    font-size: 18px;
+    font-family: Arial;
+    background-color: #55B;
+    border: solid;
+    border-color: #aaa;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff
+}
+
+button {
+    font-size: 24px;
+}
+
+#name {
+    top: 25px;
+    left: 5px;
+    width: calc(60vw * 0.97);
+}
+
+#cost {
+    top: 25px;
+    right: 5px;
+    width: calc(40vw * 0.97);
+}
+
+#place {
+    top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 20px);
+}
+
+#imageViewButton {
+    top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+    width: calc(100% - 20px);
+
+}
+
+#image {
+    width: 640px;
+    height: 480px;
+    border: solid;
+    border-color: #fff;
+    border-width: 2px;
+}
+
+#checkHorizontal {
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+}
+
+#save,
+#back,
+#delete {
+    top: 750px;
+    right: 10px;
+    height: 50px;
+    width: calc(30vw * 0.95);
+}
+
+#back {
+    left: 10px;
+}
+
+#save {
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#save:hover,
+#back:hover,
+#delete:hover {
+    background-color: #57A;
+    color: #000;
+}
+
+@media only screen and (max-width: 400px) {
+    #name {
+        width: calc(60vw * 0.95);
+    }
+
+    #cost {
+        width: calc(40vw * 0.95);
+    }
+
+    #save,
+    #back,
+    #delete {
+        width: calc(30vw * 0.92);
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #imageViewButton {
+        height: 450px;
+    }
+
+    #image {
+        width: 520px;
+        height: 400px;
+    }
+
+    #save,
+    #back,
+    #delete {
+        top: 690px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #imageViewButton {
+        height: 370px;
+    }
+
+    #image {
+        width: 450px;
+        height: 320px;
+    }
+
+    #save,
+    #back,
+    #delete {
+        top: 600px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    #imageViewButton {
+        height: 290px;
+    }
+
+    #image {
+        width: 360px;
+        height: 240px;
+    }
+
+    #save,
+    #back,
+    #delete {
+        top: 520px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #imageViewButton {
+        height: 230px;
+    }
+
+    #image {
+        width: 290px;
+        height: 180px;
+    }
+
+    #save,
+    #back,
+    #delete {
+        top: 470px;
+    }
+}
